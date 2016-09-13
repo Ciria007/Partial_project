@@ -1,0 +1,178 @@
+<html>
+<head>
+  <title>Rescate1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://maps.googleapis.com/maps/api/js"> </script>
+  <script>
+    var myCenter= new google.maps.LatLng(20.6132483,-100.4049742);
+
+    function initialize()
+    {
+    var mapProp = {
+      center:myCenter,
+      zoom:16,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+    var marker=new google.maps.Marker({
+      position:myCenter,
+      });
+
+    marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+  <div class="container-fluid" style="margin-right:15px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+      <img id="logo" src="logo.png"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="organizacion.html">Nuestra Organización</a></li>
+        <li class="active"><a href="cursos.html">Cursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="donaciones.html">Donaciones</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <h1 id="cursosMainImg" class="mainImgTxt">
+    <span class="latoBold" style="font-size:40px;"> TÉCNICO </span>
+      <span class="latoLight" style="font-size:30px;">EN <br>ATENCIÓN </span>
+      <span class="latoLight" style="font-size:39px;">MÉDICA</span><br>
+      <span class="latoBold" style="font-size:25px;"> PREHOSPITALARIA</span><br>
+      <span class="latoLight" style="font-size:20px;"><br>NIVEL BÁSICO</span><br>
+  </h1>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="openSansLight textbody">
+        <span class="openSansBold textbody"><br>¿Qué es un TAMP?</span><br><br>
+        Un Técnico en Atención Médica Prehospitalaria (TAMP), es una persona entrenada en atención médica prehospitalaria. La mayoría los llaman “paramédicos”.<br><br>
+        El curso que actualmente ofrece Rescate 1 es el de nivel básico. El certificado que se otorga al terminar el curso es válido ante la <strong>Secretaria del Trabajo y Previsión Social (STPS), Protección Civil Estatal y el Sistema Nacional de Protección Civil</strong>.<br><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="row" >
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+      <div id="leftDouble" class="cursosdobleimagen">
+        <p class="formatoCuadros blanco text-center" id="largeCuadro">
+
+        <span class="lato" style="font-size:45px;" >Curso</span>
+        <span class="latoBold" style="font-size:90px;" > ENERO<br> 2016</span>
+      </p>
+      </div>
+    </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
+        <div id="rightDouble"class="cursosdobleimagen">
+          <p class="formatoCuadros blanco text-center" id="largeCuadroRight">
+          <span class="lato" style="font-size:75px;" >Lugares <br></span>
+          <span class="lato" style="font-size:60px;" >AGOTADOS</span>
+        </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;"><br> Costo:<br><br></span>
+        Inscripción (incluye primer mes y la playera del uniforme): <strong>$1140.00 MN</strong><br>
+        Mensualidad (a partir del segundo mes): <strong>$600.00 MN</strong>
+        <span style="font-size:15px;"><br>*precios sujetos a cambios sin previo aviso</span>
+      </p>
+
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;">Cupo máximo:<br><br></span>
+        <strong>60</strong> lugares <strong>(LUGARES AGOTADOS)</strong><br>
+        Inscripciones: Presentarse a la junta informativa con la documentación solicitada.<br>
+        <strong>*(MENORES DE EDAD OBLIGATORIO PRESENTARSE ACOMPAÑADOS DE UN ADULTO)</strong><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;">Junta Informativa:<br><br></span>
+        Sábado 9 de enero 2016 a las 9:00 hrs.<br>
+        Salón de Congresos del Tecnológico de Monterrey.<br>
+        <strong></strong><br>
+      </p>
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;">Fecha de inicio:<br></span>
+        Sábado, 16 de enero de 2016.<br>
+        Lugar sede: Salón 4202, edificio 4.<br>
+        Tecnológico de Monterrey.
+      </p>
+    </div>
+    <div id="googleMap" style="width:400px;height:250px;"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;">Duración:<br></span>
+        1 año.
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;">Depósitos:<br></span>
+       Banco del Bajío<br>
+       Cuenta no. 40262090201<br>
+       CLABE: 030680402620902013<br>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;">Horario:<br></span>
+        Sábados de 9:00 a 14:00 hrs.<br><br>
+      </p>
+      <p class="openSansLight textbodyLeft">
+        <span class="openSansBold" style="font-size:25px;">Requisitos generales:<br></span>
+        Edad mínima de 16 años<br>
+        Adquirir el uniforme de la institución<br>
+        <strong></strong><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+      <div id="inscripciones" class="bodyFullImg">
+        INSCRIPCIONES
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+    <p class="foot"> © 2016 Rescate 1 de Querétaro I.A.P. Todos los derechos reservados. </p>
+    <p class="foot">     <a href="avisoPrivacidad.html">Aviso de privacidad</a></p>
+  </footer>
+
+</body>
+
+<html>

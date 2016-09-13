@@ -1,0 +1,256 @@
+@font-face {
+  font-family: Lato;
+  src: url('Fonts/Lato-Black.ttf');
+}
+ @font-face {
+   font-family: Lato;
+   font-weight: bold;
+   src: url('Fonts/Lato-Bold.ttf');
+ }
+ @font-face {
+   font-family: Lato;
+   font-weight: light;
+   src: url('Fonts/Lato-Light.ttf');
+ }
+ @font-face {
+   font-family: Rubik;
+   src: url('Fonts/Rubik-Regular.ttf');
+ }
+ @font-face {
+   font-family: OpenSans;
+   src: url('Fonts/OpenSans-Regular.ttf');
+ }
+ @font-face {
+   font-family: OpenSans;
+   font-weight: bold;
+   src: url('Fonts/OpenSans-bold.ttf');
+ }
+
+.lato{
+  font-family:Lato;
+}
+ .latoBold{
+   font-family:Lato;
+   font-weight:bold;
+ }
+
+ .latoLight{
+   font-family:Lato;
+   font-weight:light;
+ }
+ .openSansBold{
+   font-family:OpenSans;
+   font-weight:bold;
+ }
+
+ .openSansLight{
+   font-family:OpenSans;
+   font-weight:light;
+ }
+
+/* Set black background color, color text and some padding */
+footer {
+  background-color: #eeeeee;
+  color: black;
+  padding: 15px;
+
+}
+
+.foot{
+  display: inline;
+
+}
+
+body{
+  background-color: white;
+  color:#505d68;
+  font-family: OpenSans;
+
+}
+
+#logo{
+  width: 200px;
+  height: 50px;
+}
+
+/*Main img of documents*/
+.dimensionfirstall{
+  max-width:100%;
+  height: 500px;
+  text-align:center;
+}
+
+#homeMainImg{
+  background-image: url("home/home_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#orgMainImg{
+  background-image: url("somos/about_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#cursosMainImg{
+  background-image: url("cursos/course_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#leftDouble{
+  background-image: url("cursos/generation.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#rightDouble{
+  background-image: url("cursos/quota.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#contactoMainImg{
+  background-image: url("contacto/contact_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#donacionesMainImg{
+  background-image: url("donaciones/donation_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#leftDoubleDon{
+  background-image: url("donaciones/cash.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#rightDoubleDon{
+  background-image: url("donaciones/specie.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#homeparam{
+  max-width:100%;
+  max-height:100%;
+}
+
+#serviciosHome{
+  background-color: #f9f9f9;
+}
+#privacidadMainImg{
+  background-image: url("avisoPrivacidad/privacy_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#leftDoubleSomos{
+  background-image: url("somos/mision.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#rightDoubleSomos{
+  background-image: url("somos/vision.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosVision3{
+  background-image: url("somos/vision_3years.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosVision5{
+  background-image: url("somos/vision_5years.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosVision10{
+  background-image: url("somos/vision_10years.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosValores{
+  background-image: url("somos/values.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+.textbody{
+  text-align:center;
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:50px;
+  font-size:20px;
+}
+.textbodyLeft{
+  text-align:left;
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:50px;
+  font-size:20px;
+}
+#menu{
+  margin-top:50px;
+}
+.cursosdobleimagen{
+  width:670px;
+  height:250px;
+}
+.cursosdobleimagenL{
+  width:670px;
+  height:400px;
+}
+.mainImgTxt{
+  padding:250px;
+  color:white;
+  z-index:-1;
+  text-align:center;
+}
+.topmarg{
+  margin-top:150px !important;
+}
+
+.bodyFullImg{
+  max-width:100%;
+  height: 600px;
+  background-image: url("cursos/inscription.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+.threeContact{
+  background-color:#011627;
+  color:white;
+  width:500px;
+  height: 250px;
+}
+#middleTreeContact{
+  background-color:#ff9f1c;
+}
+
+small{
+  color:white !important;
+}
+#largeCuadro{
+  font-size:50px;
+  margin-left:80px;
+  color:#ffa326;
+}
+
+#smallCuadro{
+  font-size:20px;
+  margin-left:80px;
+}
+
+#largeCuadroRight{
+  font-size:50px;
+}
+
+#smallCuadroRight{
+  font-size:20px;
+  color:black;
+}
+.blanco{
+  color:white;
+}
+
+.formatoCuadros{
+  font-size:20px;
+}
+.plusMargin{
+  margin-left:100px;
+}
+.plusCenter{
+  margin-left:125px;
+  margin-right:25px;
+}
+
+.navbar-right{
+  margin-right:200px;
+}
+
+h3{
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:50px;
+}

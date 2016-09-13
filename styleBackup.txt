@@ -1,0 +1,201 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/*
+li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #eeeeee;
+  color: black;
+  padding: 15px;
+
+}
+
+.foot{
+  display: inline;
+
+}
+
+body{
+  background-color: white;
+  color:#505d68;
+
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {
+    height:auto;
+  }
+}
+
+  /*
+  .row .firstall{
+    opacity:0.4;
+    width:1200;
+    height:600;
+    margin-left:0 important!;
+    margin-right:0 important!;
+  }*/
+
+#logo{
+  width: 200px;
+  height: 50px;
+}
+
+/*Main img of documents*/
+.dimensionfirstall{
+  max-width:100%;
+  height: 500px;
+  text-align:center;
+}
+
+#homeMainImg{
+  background-image: url("home/home_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#orgMainImg{
+  background-image: url("somos/about_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#cursosMainImg{
+  background-image: url("cursos/course_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#leftDouble{
+  background-image: url("cursos/generation.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#rightDouble{
+  background-image: url("cursos/quota.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#contactoMainImg{
+  background-image: url("contacto/contact_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#donacionesMainImg{
+  background-image: url("donaciones/donation_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#leftDoubleDon{
+  background-image: url("donaciones/cash.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#rightDoubleDon{
+  background-image: url("donaciones/specie.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+#homeparam{
+  max-width:100%;
+  max-height:100%;
+}
+
+#serviciosHome{
+  background-color: #f9f9f9;
+}
+#privacidadMainImg{
+  background-image: url("avisoPrivacidad/privacy_background.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#leftDoubleSomos{
+  background-image: url("somos/mision.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#rightDoubleSomos{
+  background-image: url("somos/vision.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosVision3{
+  background-image: url("somos/vision_3years.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosVision5{
+  background-image: url("somos/vision_5years.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosVision10{
+  background-image: url("somos/vision_10years.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+#somosValores{
+  background-image: url("somos/values.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+.textbody{
+  text-align:center;
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.cursosdobleimagen{
+  /*Tamaño div*/
+  width:670px;
+  height:300px;
+  max-width:100%;
+  height: 500px;
+}
+
+.mainImgTxt{
+  padding:250px;
+  color:white;
+  z-index:1;
+  text-align:center;
+}
+
+.bodyFullImg{
+  max-width:100%;
+  height: 600px;
+  background-image: url("cursos/inscription.jpg"), linear-gradient(to bottom right, red, yellow);
+  background-size: 100% 100%;
+}
+
+.threeContact{
+  background-color:#011627;
+  color:white;
+  width:500px;
+  height: 250px;
+}
+#middleTreeContact{
+  background-color:#ff9f1c;
+}
+
+small{
+  color:white;
+}
